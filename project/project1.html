@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>自動化感測魚缸</title>
+    <style>
+        p::selection{
+            color: red;
+        }
+        @font-face{
+            font-family: 'Bungee Spice';
+            src: url('./font/Bungee-Regular.ttf');
+        }
+        h2{
+            border-bottom: 5px solid red;
+        }
+
+    </style>
+    <meta name="description" content="自動化感測魚缸基本介紹">
+    <meta name="keywords" content="自動化魚缸、Arduino，感測、感測元件">
+</head>
+<body>
+    <h1>自動化感測魚缸</h1>
+    <article>
+        <h2><i>期中提案書</i></h2>
+        <ul>
+            <li>WHY</li>
+            <P>因為養魚是我自己的興趣，而調節溫度的設備對養殖是非常重要的配備，但對於一個大學生來講是一筆很大的開銷。因此我想透過上課所學到的Arduino知識來打造一台可以用來日常監控以及調節的魚缸。</P>
+            <li>WHAT</li>
+            <P>透過Arduino現有的模組在搭配麵包版來達成自動化的效果</P>
+            <li>HOW</li>
+            <p>手上的資源有多的空魚缸、上課所學到的Arduino編譯能力以及學校提供的Arduino模組</p>
+            <li>SCHEDULE</li>
+            <P>前兩周先將所需零件採買好，以及編譯的程式處理完。再來開始進行硬體的組裝，最後兩周則是測試。</P>
+            <li>SCHEDULE</li>
+            <p>畢竟是要比市面上的調節溫度的價錢來的低，因此能壓縮預算的地方都壓縮。</p>
+        </ul>   
+        <a href="./file/期中報告.pdf" target="_blank">期中提案書</a>
+    </article>
+
+    <article>
+        <h2><i>期末報告</i></h2>
+        <ul>
+            <li>使用元件</li>
+            <p>基本上的原件都算好找，但加熱片上就花了很多心思了，本來想用電圈式的，但基於安全考量就沒有使用，因此最後選擇陶瓷加熱片。</p>
+            <li>是否按照計畫完成?</li>
+            <p>採買跟寫程式都在計畫餒，但中間因為卡到很多其他堂課考試，因此延長到第五周才完整組裝。</p>
+            <li>遇到困難及解決方法</li>
+            <p>最早遇到的是感溫的不會作動，想說插上去讓他啟動就可以了。但後面發現他須要專門的一段程式才能作動</p>
+            <p>再來是電壓不足，本來想說電池就可以解決電力問題，但還是出現電壓不足的狀況，因此改採用relay</p>
+            <p>接著relay也出現問題，排查發現是忘記宣告relay</p>
+            <p>本來有一個專門的製冷設備，但發現這個製冷設備的散熱極其不好，很容易過熱，因此改用最簡單的電散來處理製冷的問題</p>
+            <li>心得</li>
+            <p>除了學到很多Arduino的相關知識外，耐心跟尋找問題是讓我學到最多的，因為我以前常常因為沒耐心與不細心而導致有所失誤，因此在這份期末報告上嚷我充分的學習這兩項重要技能</p>
+        </ul>
+        <a href="./file/期末專題報告.pdf" target="_blank">期末報告書</a>    
+    </article>
+    <article>
+        <h2><i>運作</i></h2>
+        <ol>     
+            <li>出現紅燈</li>
+            <p>溫度太高，啟動風散。 <a href="./video/紅色(風散啟動).mp4" target="_blank">影片</a></p>
+            <li>紅燈到綠燈</li>
+            <p>降溫到適當溫度。 <a href="./video/紅到綠(風散停止).mp4" target="_blank">影片</a></p>
+            <li>出現藍色</li>
+            <p>溫度太低，啟動降溫。 <a href="./video/藍色(製熱啟動).mp4" target="_blank">影片</a></p>
+            <li>紅燈到綠燈</li>
+            <p>升到適當溫度。 <a href="./video/藍到綠(製熱停止).mp4" target="_blank">影片</a></p>
+        </ol>
+    </article>
+    <article>
+        <h2><i>成品照片&程式碼</i></h2>
+        <h3>成品照片</h3>
+        <img src="./video/266749825_939438797011130_5091887021677507094_n.jpg" height="500" alt="成品照片">
+        <h3>程式碼</h3>
+        <a href="./file/程式碼.pdf" target="_blank">程式碼</a>
+    </article>
+
+
+    
+</body>
+</html>
