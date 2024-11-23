@@ -1,9 +1,7 @@
 # Auto fish tank
 ## Summary 
-利用Arduino設計一個自動化水族缸，可以進行微控制器進行溫度監控和調節的系統，可即時維持水族缸內的理想水溫。系統核心由水溫感測器（如DS18B20）組成，負責即時監測水溫並將數據傳送至Arduino。當溫度低於設定值時，系統啟動加熱器提升水溫；若溫度過高，則透過風扇或其他冷卻設備進行降溫。 
-
-整個系統以編程方式實現自動控制，配合簡易電路即可完成。此設計能提供穩定的水環境，適用於養殖熱帶魚或其他需要穩定水溫的水生生物。此外，可搭配LCD螢幕或手機APP顯示即時水溫，並提供警報功能，進一步提升水族缸的自動化與智能化。
-
+Using Arduino, design an automated aquarium system that enables microcontroller-based temperature monitoring and regulation, ensuring the maintenance of the ideal water temperature in real-time. The core of the system consists of a water temperature sensor, such as the DS18B20, which continuously monitors the water temperature and transmits the data to the Arduino. When the temperature falls below a predetermined threshold, the system activates a heater to raise the water temperature. Conversely, if the temperature exceeds the desired level, the system employs a fan or other cooling devices to lower the temperature.
+The entire system is designed for automatic control and can be implemented with a simple circuit. This design creates a stable aquatic environment, making it suitable for breeding tropical fish and other aquatic organisms that require consistent water temperatures. Furthermore, the integration of LED indicators for alarm functions enhances the automation and intelligence of the aquarium.
 ## Environment
 
 ## Usage
