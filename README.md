@@ -6,7 +6,13 @@ The entire system is designed for automatic control and can be implemented with 
 ![image](https://github.com/DennisHsu716/project1.github.io/blob/main/image/1.png)
 I used two vibration motor mean fan and 16mm MCH Ceramic Heater
 
-## Environment 
+## Usage
+Blue light turn to green light, because the temperature back to the set value.
+
+
+![image](https://github.com/DennisHsu716/project1.github.io/blob/main/image/gif/blue%20to%20green.gif)
+
+
 
 ## About future plans
 Replace the cooling and refrigeration devices with more advanced models, and design a base that can conceal the circuit board and battery, thereby enhancing the aesthetic appeal.
