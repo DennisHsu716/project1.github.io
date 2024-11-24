@@ -4,7 +4,7 @@ Using Arduino, design an automated aquarium system that enables microcontroller-
 The entire system is designed for automatic control and can be implemented with a simple circuit. This design creates a stable aquatic environment, making it suitable for breeding tropical fish and other aquatic organisms that require consistent water temperatures. Furthermore, the integration of LED indicators for alarm functions enhances the automation and intelligence of the aquarium.
 ## Environment
 ![image](https://github.com/DennisHsu716/project1.github.io/blob/main/project/video/1.png)
-I used two vibration motor mean wing and 16mm MCH Ceramic Heater
+I used two vibration motor mean fan and 16mm MCH Ceramic Heater
 
 
 ## About future plans
