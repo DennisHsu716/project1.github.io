@@ -72,14 +72,22 @@ The design is fully automatic and easy to implement with a simple circuit. It en
 ---
 
 ## 📁 Folder Structure
-Aquarium-Automation/
-├── images/
-│ ├── blue_light.jpg
-│ ├── green_light.jpg
-│ ├── red_light.jpg
-│ ├── wiring_diagram.png
-│ └── ...
-├── Arduino_code.ino
-└──  README.md
+project1.github.io/  
+├── Project/  
+│ ├── blue to green.mp4    
+│ ├── blue(warm).mp4    
+│ ├── final report.pdf    
+│ ├── final.jpg  
+│ ├── midternproposal.pdf  
+│ ├── red to green.mp4    
+│ └── red(fan work).mp4   
+├── Image/  
+│ ├── gif/  
+│ │ ├── blue to green.gif  
+│ │ ├── fan work.gif  
+│ │ ├── red to green.gif  
+│ │ ├── warm.gif  
+├── README.md     
+└── Arduino_code  
 
 
