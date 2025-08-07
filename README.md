@@ -53,13 +53,13 @@ The design is fully automatic and easy to implement with a simple circuit. It en
 ## 🔌 Wiring Diagram
 
 > 📁 **[View Full Wiring Diagram]**
- ![image](https://github.com/DennisHsu716/project1.github.io/blob/main/image/1.png)  
+ ![image](https://github.com/DennisHsu716/project1.github.io/blob/main/image/1.png)   
 
-[Arduino]
-├── DS18B20 sensor → Digital pin
-├── MCH heater → Transistor/MOSFET switch (powered externally)
-├── Vibration fan → Transistor controlled
-└── RGB LED → 3 digital pins (R, G, B)
+[Arduino]  
+├── DS18B20 sensor → Digital pin  
+├── MCH heater → Transistor/MOSFET switch (powered externally)  
+├── Vibration fan → Transistor controlled  
+└── RGB LED → 3 digital pins (R, G, B)  
 
 ---
 
