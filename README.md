@@ -72,6 +72,7 @@ The design is fully automatic and easy to implement with a simple circuit. It en
 ---
 
 ## 📁 Folder Structure
+```
 project1.github.io/  
 ├── Project/  
 │ ├── blue to green.mp4    
@@ -89,5 +90,5 @@ project1.github.io/
 │ │ ├── warm.gif  
 ├── README.md     
 └── Arduino_code  
-
+```
 
